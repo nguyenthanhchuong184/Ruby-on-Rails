@@ -25,7 +25,7 @@ Rails.application.configure do
 
     config.cache_store = :memory_store
     config.public_file_server.headers = {
-      "Cache-Control" => "public, max-age=#{2.days.to_i}"
+      "Cache-Control" => "public, max-age=#{2.days.to_i}",
     }
   else
     config.action_controller.perform_caching = false
@@ -38,6 +38,10 @@ Rails.application.configure do
 
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false
+  host = "example.com" # Don't use this literally; use your local dev host instead
+  # Use this on the cloud IDE.
+  config.useraction_mailer.default_url_options = { host: host, protocol: "https" }
+  # Use this if developing on localhost.
 
   config.action_mailer.perform_caching = false
 
