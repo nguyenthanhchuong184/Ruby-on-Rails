@@ -38,6 +38,11 @@ Rails.application.configure do
 
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false
+<<<<<<< Updated upstream
+=======
+  host = "localhost:3000"
+  #config.useraction_mailer.default_url_options = { host: host, protocol: "https" }
+>>>>>>> Stashed changes
 
   config.action_mailer.perform_caching = false
 
