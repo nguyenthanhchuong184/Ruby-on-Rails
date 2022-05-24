@@ -69,15 +69,12 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
-<<<<<<< Updated upstream
-=======
     aliyun-sdk (0.8.0)
       nokogiri (~> 1.6)
       rest-client (~> 2.0)
     autoprefixer-rails (10.4.7.0)
       execjs (~> 2)
     bcrypt (3.1.18)
->>>>>>> Stashed changes
     bindex (0.8.1)
     bootsnap (1.11.1)
       msgpack (~> 1.2)
@@ -107,8 +104,6 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     dry-inflector (0.2.1)
     erubi (1.10.0)
-<<<<<<< Updated upstream
-=======
     excon (0.92.3)
     execjs (2.8.1)
     faker (2.1.2)
@@ -225,7 +220,6 @@ GEM
       fog-core
       nokogiri (>= 1.5.11, < 2.0.0)
     formatador (0.3.0)
->>>>>>> Stashed changes
     globalid (1.0.0)
       activesupport (>= 5.0)
     http-accept (1.7.0)
@@ -362,14 +356,11 @@ GEM
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-<<<<<<< Updated upstream
-=======
     will_paginate (3.1.8)
     xml-simple (1.1.9)
       rexml
     xmlrpc (0.3.2)
       webrick
->>>>>>> Stashed changes
     xpath (3.2.0)
       nokogiri (~> 1.8)
     zeitwerk (2.5.4)
@@ -382,11 +373,8 @@ DEPENDENCIES
   capybara
   carrierwave (= 0.10.0)
   debug
-<<<<<<< Updated upstream
-=======
   faker (~> 2.1.2)
   fog (= 1.36.0)
->>>>>>> Stashed changes
   importmap-rails
   jbuilder
   mini_magick (= 3.8.0)

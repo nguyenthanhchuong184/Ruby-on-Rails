@@ -1,11 +1,4 @@
 Rails.application.routes.draw do
-<<<<<<< Updated upstream
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
-  root "application#hello"
-=======
   get "users/new"
   root "static_pages#home"
   get "/help", to: "static_pages#help", as: "helf"
@@ -19,5 +12,4 @@ Rails.application.routes.draw do
   resources :account_activations, only: [:edit]
   resources :password_resets, only: [:new, :create, :edit, :update]
   resources :microposts, only: [:create, :destroy]
->>>>>>> Stashed changes
 end
